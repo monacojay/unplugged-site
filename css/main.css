@@ -19,6 +19,10 @@ html {
   background-color: rgb(51, 172, 216);
 }
 
+.hero-area img {
+  width: 250px;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
