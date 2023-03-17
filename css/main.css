@@ -93,6 +93,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.content-wrapper {
+  width: 90%;
+  margin: 15% 0;
+}
+
+
 /* -- Header and Footer -- */
 
 header, footer {
@@ -114,6 +120,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
@@ -159,6 +166,11 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px;
 }
 
 /* About Page */
