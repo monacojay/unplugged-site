@@ -15,12 +15,6 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  /* Preliminary Background Color */
-  background-color: rgb(51, 172, 216);
-}
-
-.hero-area img {
-  width: 250px;
 }
 
 /*
@@ -144,6 +138,7 @@ header, footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 }
 
 header {
@@ -224,6 +219,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .features {
@@ -393,11 +389,34 @@ aside {
   clear: both;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+/* Forms */
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/**** Media Queries ****/
 
 /* Tablet */
 @media only screen and (min-width: 768px) {
